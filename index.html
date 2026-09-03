@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Siva Rama Krishna Prasad Changala | Ph.D. Researcher in Healthcare AI & HDLSS Omics</title>
+    <meta name="title" content="Siva Rama Krishna Prasad Changala | Ph.D. Researcher in Healthcare AI & HDLSS Omics" />
+    <meta name="description" content="Academic and research portfolio of Siva Rama Krishna Prasad Changala, Ph.D. Student in Computer Science at Wright State University specializing in statistical geometry, high-dimensional low-sample-size (HDLSS) omics, dimensionality reduction, single-cell clustering, and AI assurance." />
+    <meta name="keywords" content="Siva Rama Krishna Prasad Changala, Siva Changala, Wright State University, Ph.D., Computer Science, Centroid-Encoder, HDLSS, Single-Cell, Omics, RNA-seq, Machine Learning, Dimensionality Reduction, Healthcare AI" />
+    <meta name="author" content="Siva Rama Krishna Prasad Changala" />
+    <meta name="color-scheme" content="dark light" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Siva Rama Krishna Prasad Changala | Ph.D. Researcher in Healthcare AI" />
+    <meta property="og:description" content="Ph.D. Student in Computer Science at Wright State University focusing on HDLSS biological data, dimensionality reduction, single-cell clustering, and AI assurance." />
+    
+    <!-- Google Fonts: Outfit, Inter, JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Early theme init script to prevent FOUC -->
+    <script>
+      (function() {
+        const storedTheme = localStorage.getItem('portfolio-theme');
+        if (storedTheme === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        } else if (storedTheme === 'dark') {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+          // Default to system preference or dark
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>
